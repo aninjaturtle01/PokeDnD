@@ -1,0 +1,110 @@
+[
+  {
+    "attack": "Normal",
+    "super": "—",
+    "resisted": "Rock, Steel",
+    "immune": "Ghost"
+  },
+  {
+    "attack": "Fire",
+    "super": "Grass, Ice, Bug, Steel",
+    "resisted": "Fire, Water, Rock, Dragon",
+    "immune": "—"
+  },
+  {
+    "attack": "Water",
+    "super": "Fire, Ground, Rock",
+    "resisted": "Water, Grass, Dragon",
+    "immune": "—"
+  },
+  {
+    "attack": "Electric",
+    "super": "Water, Flying",
+    "resisted": "Electric, Grass, Dragon",
+    "immune": "Ground"
+  },
+  {
+    "attack": "Grass",
+    "super": "Water, Ground, Rock",
+    "resisted": "Fire, Grass, Poison, Flying, Bug, Dragon, Steel",
+    "immune": "—"
+  },
+  {
+    "attack": "Ice",
+    "super": "Grass, Ground, Flying, Dragon",
+    "resisted": "Fire, Water, Ice, Steel",
+    "immune": "—"
+  },
+  {
+    "attack": "Fighting",
+    "super": "Normal, Ice, Rock, Dark, Steel",
+    "resisted": "Poison, Flying, Psychic, Bug, Fairy",
+    "immune": "Ghost"
+  },
+  {
+    "attack": "Poison",
+    "super": "Grass, Fairy",
+    "resisted": "Poison, Ground, Rock, Ghost",
+    "immune": "Steel"
+  },
+  {
+    "attack": "Ground",
+    "super": "Fire, Electric, Poison, Rock, Steel",
+    "resisted": "Grass, Bug",
+    "immune": "Flying"
+  },
+  {
+    "attack": "Flying",
+    "super": "Grass, Fighting, Bug",
+    "resisted": "Electric, Rock, Steel",
+    "immune": "—"
+  },
+  {
+    "attack": "Psychic",
+    "super": "Fighting, Poison",
+    "resisted": "Psychic, Steel",
+    "immune": "Dark"
+  },
+  {
+    "attack": "Bug",
+    "super": "Grass, Psychic, Dark",
+    "resisted": "Fire, Fighting, Poison, Flying, Ghost, Steel, Fairy",
+    "immune": "—"
+  },
+  {
+    "attack": "Rock",
+    "super": "Fire, Ice, Flying, Bug",
+    "resisted": "Fighting, Ground, Steel",
+    "immune": "—"
+  },
+  {
+    "attack": "Ghost",
+    "super": "Psychic, Ghost",
+    "resisted": "Dark",
+    "immune": "Normal"
+  },
+  {
+    "attack": "Dragon",
+    "super": "Dragon",
+    "resisted": "Steel",
+    "immune": "Fairy"
+  },
+  {
+    "attack": "Dark",
+    "super": "Psychic, Ghost",
+    "resisted": "Fighting, Dark, Fairy",
+    "immune": "—"
+  },
+  {
+    "attack": "Steel",
+    "super": "Ice, Rock, Fairy",
+    "resisted": "Fire, Water, Electric, Steel",
+    "immune": "—"
+  },
+  {
+    "attack": "Fairy",
+    "super": "Fighting, Dragon, Dark",
+    "resisted": "Fire, Poison, Steel",
+    "immune": "—"
+  }
+]

@@ -1,0 +1,395 @@
+{
+  "Trainer": {
+    "hitDie": 10,
+    "role": "Battle leadership",
+    "saves": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "skills": [
+      "Athletics",
+      "Insight",
+      "Intimidation",
+      "Perception",
+      "Pokémon",
+      "Pokémon Handling",
+      "Persuasion"
+    ],
+    "chooseSkills": 3,
+    "startingGear": [
+      {
+        "name": "Poké Ball",
+        "qty": 5
+      },
+      {
+        "name": "Potion",
+        "qty": 2
+      },
+      {
+        "name": "Bedroll",
+        "qty": 1
+      },
+      {
+        "name": "Backpack",
+        "qty": 1
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Tactical Command",
+        "text": "Trainer Action: choose Aim (Advantage on the active Pokémon’s next attack before your next turn), Guard (+1 Defense and +1 Sp. Defense until your next turn), or Drive (+10 ft movement this turn). You can use Tactical Command a number of times per fight equal to your Trainer Proficiency. Only one Tactical Command can affect a Pokémon at once."
+      },
+      {
+        "level": 2,
+        "name": "Battle Instinct",
+        "text": "Once per fight, after your active Pokémon fails an attack roll or Pokémon check, reroll it and use the second result."
+      },
+      {
+        "level": 3,
+        "name": "Quick Command",
+        "text": "Once per fight, use Tactical Command as a Trainer Bonus Action instead of a Trainer Action. This still spends one Tactical Command use."
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "text": "Increase one Trainer ability score by 2, or two Trainer ability scores by 1, to a maximum of 20."
+      },
+      {
+        "level": 5,
+        "name": "Veteran Switch",
+        "text": "After a voluntary switch, the incoming Pokémon may immediately move up to 30 ft. The switch still consumes the entire turn and the new Pokémon cannot use a Pokémon Action."
+      }
+    ]
+  },
+  "Researcher": {
+    "hitDie": 8,
+    "role": "Pokédex analysis and knowledge",
+    "saves": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "skills": [
+      "Investigation",
+      "Nature",
+      "Pokémon",
+      "Technology",
+      "Medicine",
+      "Perception"
+    ],
+    "chooseSkills": 3,
+    "startingGear": [
+      {
+        "name": "Pokédex",
+        "qty": 1
+      },
+      {
+        "name": "Research kit",
+        "qty": 1
+      },
+      {
+        "name": "Poké Ball",
+        "qty": 3
+      },
+      {
+        "name": "Potion",
+        "qty": 2
+      },
+      {
+        "name": "Backpack",
+        "qty": 1
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Pokédex Scan",
+        "text": "Trainer Action: scan one visible Pokémon within 60 ft. Learn species, typing, Defense, Sp. Defense, Capture DC, and current HP band (76–100%, 51–75%, 26–50%, or 1–25%). You can use Pokédex Scan a number of times per fight equal to your Trainer Proficiency."
+      },
+      {
+        "level": 2,
+        "name": "Analytical Opening",
+        "text": "After you scan a Pokémon, the first allied attack against it before your next turn has Advantage."
+      },
+      {
+        "level": 3,
+        "name": "Rapid Scan",
+        "text": "You may use Pokédex Scan as a Trainer Bonus Action."
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "text": "Increase one Trainer ability score by 2, or two Trainer ability scores by 1, to a maximum of 20."
+      },
+      {
+        "level": 5,
+        "name": "Complete Readout",
+        "text": "A scan also reveals exact current/max HP, all five converted combat stats, current stat stages, active statuses and the target’s four active moves."
+      }
+    ]
+  },
+  "Nurse": {
+    "hitDie": 8,
+    "role": "Field healing and recovery",
+    "saves": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "skills": [
+      "Medicine",
+      "Insight",
+      "Pokémon Handling",
+      "Perception",
+      "Pokémon",
+      "Survival"
+    ],
+    "chooseSkills": 3,
+    "startingGear": [
+      {
+        "name": "Nurse kit",
+        "qty": 1
+      },
+      {
+        "name": "Poké Ball",
+        "qty": 3
+      },
+      {
+        "name": "Potion",
+        "qty": 2
+      },
+      {
+        "name": "Full Heal",
+        "qty": 1
+      },
+      {
+        "name": "Backpack",
+        "qty": 1
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Field Care",
+        "text": "Care Charges = 2 + Trainer Proficiency + Wisdom modifier (minimum 2). Trainer Action: spend 1 charge to restore 1d8 + Wisdom modifier HP to one Pokémon. Charges restore at a Pokémon Center or by replacing supplies at ₽150 per missing charge."
+      },
+      {
+        "level": 2,
+        "name": "Condition Care",
+        "text": "Trainer Action: spend 1 Care Charge to remove Burn, Poison, Paralysis or Confusion; spend 2 to remove Sleep or Frozen."
+      },
+      {
+        "level": 3,
+        "name": "Emergency Revive",
+        "text": "Trainer Action: spend 2 Care Charges to return a fainted party Pokémon with 1d8 + Wisdom modifier HP."
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "text": "Increase one Trainer ability score by 2, or two Trainer ability scores by 1, to a maximum of 20."
+      },
+      {
+        "level": 5,
+        "name": "Triage",
+        "text": "Once per fight, perform Field Care or Condition Care as a Trainer Bonus Action."
+      }
+    ]
+  },
+  "Ranger": {
+    "hitDie": 10,
+    "role": "Wild Pokémon and exploration",
+    "saves": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "skills": [
+      "Nature",
+      "Perception",
+      "Pokémon Handling",
+      "Stealth",
+      "Survival",
+      "Athletics"
+    ],
+    "chooseSkills": 3,
+    "startingGear": [
+      {
+        "name": "Poké Ball",
+        "qty": 5
+      },
+      {
+        "name": "Net Ball",
+        "qty": 1
+      },
+      {
+        "name": "Camping kit",
+        "qty": 1
+      },
+      {
+        "name": "Rope",
+        "qty": 1
+      },
+      {
+        "name": "Backpack",
+        "qty": 1
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Wild Rapport",
+        "text": "You have Advantage on checks made to approach, calm, understand or handle wild Pokémon, and you automatically recognise a wild Pokémon’s starting disposition."
+      },
+      {
+        "level": 2,
+        "name": "Trailcraft",
+        "text": "Ordinary natural terrain does not significantly slow your group. Once per travel day in suitable terrain, find 1d4 common Berries."
+      },
+      {
+        "level": 3,
+        "name": "Capture Setup",
+        "text": "When a wild Pokémon is Friendly or Wary, your Capture Checks against it gain +2."
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "text": "Increase one Trainer ability score by 2, or two Trainer ability scores by 1, to a maximum of 20."
+      },
+      {
+        "level": 5,
+        "name": "Ambush Sense",
+        "text": "While you are conscious, the party cannot normally be surprised by wild Pokémon. You also roll opening Initiative with Advantage against wild encounters."
+      }
+    ]
+  },
+  "Coordinator": {
+    "hitDie": 8,
+    "role": "Support, morale and social play",
+    "saves": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "skills": [
+      "Performance",
+      "Persuasion",
+      "Insight",
+      "Pokémon Handling",
+      "Deception",
+      "Perception"
+    ],
+    "chooseSkills": 3,
+    "startingGear": [
+      {
+        "name": "Poké Ball",
+        "qty": 3
+      },
+      {
+        "name": "Potion",
+        "qty": 2
+      },
+      {
+        "name": "Performance kit",
+        "qty": 1
+      },
+      {
+        "name": "Grooming kit",
+        "qty": 1
+      },
+      {
+        "name": "Backpack",
+        "qty": 1
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Encourage",
+        "text": "Trainer Action: choose Attack, Sp. Attack or Speed. Your active Pokémon gains +1 stage in that stat. Only one stage granted by Encourage may exist at a time. You can use Encourage a number of times per fight equal to your Trainer Proficiency."
+      },
+      {
+        "level": 2,
+        "name": "Pokémon Bond",
+        "text": "Your active Pokémon has Advantage on noncombat Pokémon checks while it can see or hear you."
+      },
+      {
+        "level": 3,
+        "name": "Rhythm",
+        "text": "If your Pokémon uses a different move from the move it used on its previous turn, it gains +1 to that move’s attack roll. This does not affect moves without attack rolls."
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "text": "Increase one Trainer ability score by 2, or two Trainer ability scores by 1, to a maximum of 20."
+      },
+      {
+        "level": 5,
+        "name": "Baton Spirit",
+        "text": "When you voluntarily switch Pokémon, the incoming Pokémon may inherit one positive stat stage, maximum +1, from the outgoing Pokémon."
+      }
+    ]
+  },
+  "Technician": {
+    "hitDie": 8,
+    "role": "Items, crafting and technology",
+    "saves": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "skills": [
+      "Technology",
+      "Investigation",
+      "Sleight of Hand",
+      "Pokémon",
+      "Perception",
+      "Nature"
+    ],
+    "chooseSkills": 3,
+    "startingGear": [
+      {
+        "name": "Technician toolkit",
+        "qty": 1
+      },
+      {
+        "name": "Poké Ball",
+        "qty": 4
+      },
+      {
+        "name": "Potion",
+        "qty": 2
+      },
+      {
+        "name": "Flashlight",
+        "qty": 1
+      },
+      {
+        "name": "Backpack",
+        "qty": 1
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Field Fabrication",
+        "text": "With your toolkit and a safe workspace, craft Common consumable items for 50% of their listed shop price. A normal batch takes about 30 minutes."
+      },
+      {
+        "level": 2,
+        "name": "Ball Tuning",
+        "text": "Immediately before a Capture Check, use a Trainer Bonus Action to give that Poké Ball +1 to the check. You can use Ball Tuning a number of times per fight equal to your Trainer Proficiency."
+      },
+      {
+        "level": 3,
+        "name": "TM Specialist",
+        "text": "When you use a consumable TM, roll 1d6. On 5–6, the move is taught normally and the TM is not consumed."
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "text": "Increase one Trainer ability score by 2, or two Trainer ability score by 1, to a maximum of 20."
+      },
+      {
+        "level": 5,
+        "name": "Advanced Fabrication",
+        "text": "Craft Uncommon items for 60% of shop price. Ball Tuning improves to +2."
+      }
+    ]
+  }
+}
