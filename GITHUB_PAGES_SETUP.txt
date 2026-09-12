@@ -1,0 +1,10 @@
+Pokémon d20 Player Companion V0.2.5 Premade — GitHub Pages
+
+1. Upload the CONTENTS of this folder to the root of your GitHub repository.
+2. GitHub repository > Settings > Pages.
+3. Source: Deploy from a branch.
+4. Branch: main. Folder: /(root).
+5. Save and wait for deployment.
+6. Reload the installed web app once after deployment so the V0.2.5 service worker replaces the old cache.
+
+Existing player save data uses the same local-storage key as V0.2.4 and should carry over on the same browser/device.

@@ -1,0 +1,8 @@
+{
+  "Burn": "Lasts 1d4 rounds. At the end of the affected Pokémon’s turn, take 1d4 Fire damage. Physical attack damage is reduced by 2.",
+  "Poison": "Lasts 1d4 rounds. At the end of the affected Pokémon’s turn, take 1d4 Poison damage.",
+  "Paralysis": "Lasts 1d4 rounds. At the beginning of each turn, roll 1d10. On 1–5, the Pokémon cannot use its Pokémon Action; on 6–10 it acts normally.",
+  "Sleep": "Lasts 1d4 rounds. At the beginning of each turn, roll d20 + Speed modifier vs DC 10. On success, wake immediately and act normally.",
+  "Frozen": "Lasts 1d4 rounds. At the beginning of each turn, roll d20 + Sp. Defense modifier vs DC 10. On success, thaw and act normally. Taking Fire-type damage ends Frozen.",
+  "Confusion": "Lasts 1d4 rounds. At the beginning of its Pokémon Action, roll 1d10. On 1–5, take 1d6 typeless damage and lose the Pokémon Action; on 6–10 act normally."
+}

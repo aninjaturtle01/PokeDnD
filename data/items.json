@@ -1,0 +1,1766 @@
+[
+  {
+    "id": "pok-ball",
+    "name": "Poké Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+0 — Standard capture device.",
+    "price": 200
+  },
+  {
+    "id": "great-ball",
+    "name": "Great Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+2 — Reliable general-purpose upgrade.",
+    "price": 600
+  },
+  {
+    "id": "ultra-ball",
+    "name": "Ultra Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — High-grade general-purpose Ball.",
+    "price": 1200
+  },
+  {
+    "id": "heal-ball",
+    "name": "Heal Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+0 — On a successful capture, the Pokémon is restored to full HP.",
+    "price": 400
+  },
+  {
+    "id": "net-ball",
+    "name": "Net Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies against Water- or Bug-type Pokémon.",
+    "price": 1000
+  },
+  {
+    "id": "dive-ball",
+    "name": "Dive Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies to Pokémon encountered underwater.",
+    "price": 1000
+  },
+  {
+    "id": "dusk-ball",
+    "name": "Dusk Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies at night or in caves.",
+    "price": 1000
+  },
+  {
+    "id": "fast-ball",
+    "name": "Fast Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies against a Pokémon with Speed 16 or higher.",
+    "price": 1000
+  },
+  {
+    "id": "heavy-ball",
+    "name": "Heavy Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+2 / +4 — +2 against Large targets; +4 against Huge targets.",
+    "price": 1000
+  },
+  {
+    "id": "lure-ball",
+    "name": "Lure Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies to Pokémon encountered while fishing.",
+    "price": 1000
+  },
+  {
+    "id": "moon-ball",
+    "name": "Moon Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies if the species evolves using a Moon Stone.",
+    "price": 1000
+  },
+  {
+    "id": "repeat-ball",
+    "name": "Repeat Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies if the trainer has previously caught that species.",
+    "price": 1000
+  },
+  {
+    "id": "dream-ball",
+    "name": "Dream Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 — Bonus applies against a Sleeping Pokémon.",
+    "price": 1000
+  },
+  {
+    "id": "nest-ball",
+    "name": "Nest Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+4 / +2 — +4 against Level 1–4 targets; +2 against Level 5–8 targets.",
+    "price": 800
+  },
+  {
+    "id": "quick-ball",
+    "name": "Quick Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "+5 — Bonus applies only during Round 1.",
+    "price": 1200
+  },
+  {
+    "id": "timer-ball",
+    "name": "Timer Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "scaling — +1 after every two completed rounds, maximum +5.",
+    "price": 1200
+  },
+  {
+    "id": "level-ball",
+    "name": "Level Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "scaling — +2 if active Pokémon is higher level; +4 at twice the level; +6 at four times the level.",
+    "price": 1200
+  },
+  {
+    "id": "master-ball",
+    "name": "Master Ball",
+    "category": "Poké Balls",
+    "subtype": "",
+    "mode": "",
+    "effect": "automatic — Automatically succeeds on a legal capture.",
+    "price": null
+  },
+  {
+    "id": "potion",
+    "name": "Potion",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore 2d4 + 2 HP",
+    "price": 300
+  },
+  {
+    "id": "super-potion",
+    "name": "Super Potion",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore 4d4 + 4 HP",
+    "price": 700
+  },
+  {
+    "id": "hyper-potion",
+    "name": "Hyper Potion",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore 8d4 + 8 HP",
+    "price": 1200
+  },
+  {
+    "id": "max-potion",
+    "name": "Max Potion",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore all HP",
+    "price": 2500
+  },
+  {
+    "id": "antidote",
+    "name": "Antidote",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove Poison",
+    "price": 200
+  },
+  {
+    "id": "burn-heal",
+    "name": "Burn Heal",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove Burn",
+    "price": 200
+  },
+  {
+    "id": "paralyze-heal",
+    "name": "Paralyze Heal",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove Paralysis",
+    "price": 200
+  },
+  {
+    "id": "awakening",
+    "name": "Awakening",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove Sleep",
+    "price": 250
+  },
+  {
+    "id": "ice-heal",
+    "name": "Ice Heal",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove Frozen",
+    "price": 250
+  },
+  {
+    "id": "full-heal",
+    "name": "Full Heal",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove all current major statuses and Confusion",
+    "price": 600
+  },
+  {
+    "id": "revive",
+    "name": "Revive",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Return a fainted Pokémon at half maximum HP",
+    "price": 1500
+  },
+  {
+    "id": "max-revive",
+    "name": "Max Revive",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Return a fainted Pokémon at full HP",
+    "price": 3500
+  },
+  {
+    "id": "full-restore",
+    "name": "Full Restore",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore all HP and remove current statuses",
+    "price": 3000
+  },
+  {
+    "id": "energy-powder",
+    "name": "Energy Powder",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore 2d4 + 2 HP",
+    "price": 250
+  },
+  {
+    "id": "energy-root",
+    "name": "Energy Root",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Restore 4d4 + 4 HP",
+    "price": 600
+  },
+  {
+    "id": "heal-powder",
+    "name": "Heal Powder",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Remove all current major statuses and Confusion",
+    "price": 500
+  },
+  {
+    "id": "revival-herb",
+    "name": "Revival Herb",
+    "category": "Medicine",
+    "subtype": "",
+    "mode": "",
+    "effect": "Return a fainted Pokémon at full HP",
+    "price": 3000
+  },
+  {
+    "id": "oran-berry",
+    "name": "Oran Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: restore 1d6 HP.",
+    "price": 100
+  },
+  {
+    "id": "sitrus-berry",
+    "name": "Sitrus Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: restore one-quarter maximum HP, rounded down.",
+    "price": 400
+  },
+  {
+    "id": "cheri-berry",
+    "name": "Cheri Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove Paralysis.",
+    "price": 200
+  },
+  {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove Sleep.",
+    "price": 200
+  },
+  {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove Poison.",
+    "price": 200
+  },
+  {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove Burn.",
+    "price": 200
+  },
+  {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove Frozen.",
+    "price": 200
+  },
+  {
+    "id": "persim-berry",
+    "name": "Persim Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove Confusion.",
+    "price": 200
+  },
+  {
+    "id": "lum-berry",
+    "name": "Lum Berry",
+    "category": "Berries",
+    "subtype": "",
+    "mode": "Activated",
+    "effect": "Trainer Bonus Action: remove any current major status and Confusion.",
+    "price": 800
+  },
+  {
+    "id": "silk-scarf",
+    "name": "Silk Scarf",
+    "category": "Held Items",
+    "subtype": "Normal",
+    "mode": "Passive",
+    "effect": "Normal-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "category": "Held Items",
+    "subtype": "Fire",
+    "mode": "Passive",
+    "effect": "Fire-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "mystic-water",
+    "name": "Mystic Water",
+    "category": "Held Items",
+    "subtype": "Water",
+    "mode": "Passive",
+    "effect": "Water-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "magnet",
+    "name": "Magnet",
+    "category": "Held Items",
+    "subtype": "Electric",
+    "mode": "Passive",
+    "effect": "Electric-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "miracle-seed",
+    "name": "Miracle Seed",
+    "category": "Held Items",
+    "subtype": "Grass",
+    "mode": "Passive",
+    "effect": "Grass-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "never-melt-ice",
+    "name": "Never-Melt Ice",
+    "category": "Held Items",
+    "subtype": "Ice",
+    "mode": "Passive",
+    "effect": "Ice-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "black-belt",
+    "name": "Black Belt",
+    "category": "Held Items",
+    "subtype": "Fighting",
+    "mode": "Passive",
+    "effect": "Fighting-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "poison-barb",
+    "name": "Poison Barb",
+    "category": "Held Items",
+    "subtype": "Poison",
+    "mode": "Passive",
+    "effect": "Poison-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "soft-sand",
+    "name": "Soft Sand",
+    "category": "Held Items",
+    "subtype": "Ground",
+    "mode": "Passive",
+    "effect": "Ground-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "sharp-beak",
+    "name": "Sharp Beak",
+    "category": "Held Items",
+    "subtype": "Flying",
+    "mode": "Passive",
+    "effect": "Flying-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "twisted-spoon",
+    "name": "Twisted Spoon",
+    "category": "Held Items",
+    "subtype": "Psychic",
+    "mode": "Passive",
+    "effect": "Psychic-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "silver-powder",
+    "name": "Silver Powder",
+    "category": "Held Items",
+    "subtype": "Bug",
+    "mode": "Passive",
+    "effect": "Bug-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "hard-stone",
+    "name": "Hard Stone",
+    "category": "Held Items",
+    "subtype": "Rock",
+    "mode": "Passive",
+    "effect": "Rock-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "spell-tag",
+    "name": "Spell Tag",
+    "category": "Held Items",
+    "subtype": "Ghost",
+    "mode": "Passive",
+    "effect": "Ghost-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "dragon-fang",
+    "name": "Dragon Fang",
+    "category": "Held Items",
+    "subtype": "Dragon",
+    "mode": "Passive",
+    "effect": "Dragon-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "black-glasses",
+    "name": "Black Glasses",
+    "category": "Held Items",
+    "subtype": "Dark",
+    "mode": "Passive",
+    "effect": "Dark-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "category": "Held Items",
+    "subtype": "Steel",
+    "mode": "Passive",
+    "effect": "Steel-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "pixie-plate",
+    "name": "Pixie Plate",
+    "category": "Held Items",
+    "subtype": "Fairy",
+    "mode": "Passive",
+    "effect": "Fairy-type damaging moves deal +2 final damage.",
+    "price": 2500
+  },
+  {
+    "id": "muscle-band",
+    "name": "Muscle Band",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Physical damaging moves deal +1 final damage.",
+    "price": 3000
+  },
+  {
+    "id": "wise-glasses",
+    "name": "Wise Glasses",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Special damaging moves deal +1 final damage.",
+    "price": 3000
+  },
+  {
+    "id": "choice-band",
+    "name": "Choice Band",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Physical damaging moves deal +3 final damage. After the holder uses a move, it is locked into that move until it leaves battle.",
+    "price": 6000
+  },
+  {
+    "id": "choice-specs",
+    "name": "Choice Specs",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Special damaging moves deal +3 final damage. After the holder uses a move, it is locked into that move until it leaves battle.",
+    "price": 6000
+  },
+  {
+    "id": "choice-scarf",
+    "name": "Choice Scarf",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Gain +3 to opening Initiative and Speed checks/saves. After the holder uses a move, it is locked into that move until it leaves battle.",
+    "price": 6000
+  },
+  {
+    "id": "life-orb",
+    "name": "Life Orb",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "After the holder deals damaging move damage, add +3 final damage, then lose one-tenth maximum HP (minimum 1).",
+    "price": 7000
+  },
+  {
+    "id": "expert-belt",
+    "name": "Expert Belt",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "When the holder deals super-effective damage, add +3 final damage.",
+    "price": 4000
+  },
+  {
+    "id": "leftovers",
+    "name": "Leftovers",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "At the end of the holder’s turn, restore one-sixteenth maximum HP (minimum 1).",
+    "price": 5000
+  },
+  {
+    "id": "black-sludge",
+    "name": "Black Sludge",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Poison-type holder restores one-sixteenth maximum HP at end of turn; any other holder loses that amount.",
+    "price": 5000
+  },
+  {
+    "id": "shell-bell",
+    "name": "Shell Bell",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "After dealing damage, restore one-eighth of the final damage dealt (minimum 1).",
+    "price": 3500
+  },
+  {
+    "id": "big-root",
+    "name": "Big Root",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Increase HP restored by draining moves by 50%, rounded down.",
+    "price": 3500
+  },
+  {
+    "id": "focus-sash",
+    "name": "Focus Sash",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "If at full HP and an attack would reduce the holder to 0 HP, survive at 1 HP instead.",
+    "price": 6000
+  },
+  {
+    "id": "focus-band",
+    "name": "Focus Band",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered",
+    "effect": "When the holder would be reduced to 0 HP, roll 1d10; on 1 it survives at 1 HP.",
+    "price": 4000
+  },
+  {
+    "id": "assault-vest",
+    "name": "Assault Vest",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Sp. Defense +2, maximum 20. The holder cannot use Status moves.",
+    "price": 5500
+  },
+  {
+    "id": "eviolite",
+    "name": "Eviolite",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "If the holder can still evolve, Defense +1 and Sp. Defense +1, maximum 20.",
+    "price": 4500
+  },
+  {
+    "id": "rocky-helmet",
+    "name": "Rocky Helmet",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered",
+    "effect": "When struck by a contact move, the attacker takes one-eighth of its maximum HP as typeless damage (minimum 1).",
+    "price": 5000
+  },
+  {
+    "id": "weakness-policy",
+    "name": "Weakness Policy",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "After taking super-effective damage, Attack +2 stages and Sp. Attack +2 stages.",
+    "price": 5000
+  },
+  {
+    "id": "absorb-bulb",
+    "name": "Absorb Bulb",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "When struck by a Water-type damaging move, Sp. Attack +1 stage.",
+    "price": 3000
+  },
+  {
+    "id": "cell-battery",
+    "name": "Cell Battery",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "When struck by an Electric-type damaging move, Attack +1 stage.",
+    "price": 3000
+  },
+  {
+    "id": "snowball",
+    "name": "Snowball",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "When struck by an Ice-type damaging move, Attack +1 stage.",
+    "price": 3000
+  },
+  {
+    "id": "luminous-moss",
+    "name": "Luminous Moss",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "When struck by a Water-type damaging move, Sp. Defense +1 stage.",
+    "price": 3000
+  },
+  {
+    "id": "air-balloon",
+    "name": "Air Balloon",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive • Consumable",
+    "effect": "The holder is immune to Ground-type attacks until it takes damaging move damage; then the Balloon bursts.",
+    "price": 3000
+  },
+  {
+    "id": "quick-claw",
+    "name": "Quick Claw",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered",
+    "effect": "After opening Initiative is rolled, roll 1d10; on 1–2 add +10 to that Initiative for the encounter.",
+    "price": 3000
+  },
+  {
+    "id": "quick-powder",
+    "name": "Quick Powder",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "An untransformed Ditto gains +4 to opening Initiative and Speed rolls.",
+    "price": 4000
+  },
+  {
+    "id": "metal-powder",
+    "name": "Metal Powder",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "An untransformed Ditto gains Defense +2, maximum 20.",
+    "price": 4000
+  },
+  {
+    "id": "light-ball",
+    "name": "Light Ball",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Pikachu gains +2 to physical and special attack rolls and damage.",
+    "price": 5000
+  },
+  {
+    "id": "thick-club",
+    "name": "Thick Club",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Cubone or Marowak gains +2 to physical attack rolls and physical damage.",
+    "price": 5000
+  },
+  {
+    "id": "lucky-punch",
+    "name": "Lucky Punch",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Chansey’s physical attacks score critical hits on natural 19–20.",
+    "price": 5000
+  },
+  {
+    "id": "scope-lens",
+    "name": "Scope Lens",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Holder’s damaging attacks score critical hits on natural 19–20. Critical-range effects do not stack.",
+    "price": 4000
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Passive",
+    "effect": "Holder’s damaging attacks score critical hits on natural 19–20. Critical-range effects do not stack.",
+    "price": 4000
+  },
+  {
+    "id": "flame-orb",
+    "name": "Flame Orb",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered",
+    "effect": "At the end of the holder’s first turn in an encounter, it becomes Burned for 1d4 rounds.",
+    "price": 3500
+  },
+  {
+    "id": "toxic-orb",
+    "name": "Toxic Orb",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered",
+    "effect": "At the end of the holder’s first turn in an encounter, it becomes Poisoned for 1d4 rounds.",
+    "price": 3500
+  },
+  {
+    "id": "white-herb",
+    "name": "White Herb",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "When one or more stats are below their starting stage, reset all negative stat stages to 0. Positive stages remain.",
+    "price": 3000
+  },
+  {
+    "id": "power-herb",
+    "name": "Power Herb",
+    "category": "Held Items",
+    "subtype": "",
+    "mode": "Triggered • Consumable",
+    "effect": "When the holder uses a move that requires a charging turn, skip that charge and resolve the move immediately.",
+    "price": 4000
+  },
+  {
+    "id": "x-attack",
+    "name": "X Attack",
+    "category": "Battle Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Attack +1 stage",
+    "price": 500
+  },
+  {
+    "id": "x-defense",
+    "name": "X Defense",
+    "category": "Battle Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Defense +1 stage",
+    "price": 500
+  },
+  {
+    "id": "x-sp-atk",
+    "name": "X Sp. Atk",
+    "category": "Battle Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Sp. Attack +1 stage",
+    "price": 500
+  },
+  {
+    "id": "x-sp-def",
+    "name": "X Sp. Def",
+    "category": "Battle Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Sp. Defense +1 stage",
+    "price": 500
+  },
+  {
+    "id": "x-speed",
+    "name": "X Speed",
+    "category": "Battle Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Speed +1 stage",
+    "price": 500
+  },
+  {
+    "id": "dire-hit",
+    "name": "Dire Hit",
+    "category": "Battle Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Critical range becomes 19–20 for this encounter",
+    "price": 1000
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "category": "Evolution Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Used outside combat to satisfy the appropriate evolution requirement.",
+    "price": 3000
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "category": "Evolution Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Used outside combat to satisfy the appropriate evolution requirement.",
+    "price": 3000
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "category": "Evolution Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Used outside combat to satisfy the appropriate evolution requirement.",
+    "price": 3000
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "category": "Evolution Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Used outside combat to satisfy the appropriate evolution requirement.",
+    "price": 3000
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "category": "Evolution Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Used outside combat to satisfy the appropriate evolution requirement.",
+    "price": 3000
+  },
+  {
+    "id": "linking-cord",
+    "name": "Linking Cord",
+    "category": "Evolution Items",
+    "subtype": "",
+    "mode": "",
+    "effect": "Used outside combat to satisfy the appropriate evolution requirement.",
+    "price": 5000
+  },
+  {
+    "id": "backpack",
+    "name": "Backpack",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 500
+  },
+  {
+    "id": "bedroll",
+    "name": "Bedroll",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 150
+  },
+  {
+    "id": "tent",
+    "name": "Tent",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1000
+  },
+  {
+    "id": "rope",
+    "name": "Rope",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 200
+  },
+  {
+    "id": "flashlight",
+    "name": "Flashlight",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 250
+  },
+  {
+    "id": "lantern",
+    "name": "Lantern",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 400
+  },
+  {
+    "id": "rations-1-day",
+    "name": "Rations (1 day)",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 50
+  },
+  {
+    "id": "water-bottle",
+    "name": "Water bottle",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 100
+  },
+  {
+    "id": "map",
+    "name": "Map",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 100
+  },
+  {
+    "id": "basic-fishing-rod",
+    "name": "Basic fishing rod",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1000
+  },
+  {
+    "id": "climbing-kit",
+    "name": "Climbing kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1200
+  },
+  {
+    "id": "research-kit",
+    "name": "Research kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1200
+  },
+  {
+    "id": "nurse-kit",
+    "name": "Nurse kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1200
+  },
+  {
+    "id": "technician-toolkit",
+    "name": "Technician toolkit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1500
+  },
+  {
+    "id": "camping-kit",
+    "name": "Camping kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "",
+    "price": 1000
+  },
+  {
+    "id": "escape-rope",
+    "name": "Escape Rope",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Safely retrace a previously travelled dungeon/cave route to its entrance over about 10 minutes, if the path still exists.",
+    "price": 500
+  },
+  {
+    "id": "pok-dex",
+    "name": "Pokédex",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "performance-kit",
+    "name": "Performance kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "grooming-kit",
+    "name": "Grooming kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "notebook",
+    "name": "Notebook",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "reference-cards",
+    "name": "Reference cards",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "sports-gear",
+    "name": "Sports gear",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "first-aid-pouch",
+    "name": "First-aid pouch",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "blanket",
+    "name": "Blanket",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "field-notebook",
+    "name": "Field notebook",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "specimen-containers",
+    "name": "Specimen containers",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "costume-piece",
+    "name": "Costume piece",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "small-tool-roll",
+    "name": "Small tool roll",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "spare-parts",
+    "name": "Spare parts",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "simple-disguise-kit",
+    "name": "Simple disguise kit",
+    "category": "Trainer Gear",
+    "subtype": "",
+    "mode": "",
+    "effect": "Class/background equipment; not normally priced in V1.",
+    "price": null
+  },
+  {
+    "id": "tm-blizzard",
+    "name": "TM — Blizzard",
+    "category": "TMs",
+    "subtype": "Blizzard",
+    "mode": "",
+    "effect": "Teaches Blizzard to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-brick-break",
+    "name": "TM — Brick Break",
+    "category": "TMs",
+    "subtype": "Brick Break",
+    "mode": "",
+    "effect": "Teaches Brick Break to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-bulk-up",
+    "name": "TM — Bulk Up",
+    "category": "TMs",
+    "subtype": "Bulk Up",
+    "mode": "",
+    "effect": "Teaches Bulk Up to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-calm-mind",
+    "name": "TM — Calm Mind",
+    "category": "TMs",
+    "subtype": "Calm Mind",
+    "mode": "",
+    "effect": "Teaches Calm Mind to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-dark-pulse",
+    "name": "TM — Dark Pulse",
+    "category": "TMs",
+    "subtype": "Dark Pulse",
+    "mode": "",
+    "effect": "Teaches Dark Pulse to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-dazzling-gleam",
+    "name": "TM — Dazzling Gleam",
+    "category": "TMs",
+    "subtype": "Dazzling Gleam",
+    "mode": "",
+    "effect": "Teaches Dazzling Gleam to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-dragon-pulse",
+    "name": "TM — Dragon Pulse",
+    "category": "TMs",
+    "subtype": "Dragon Pulse",
+    "mode": "",
+    "effect": "Teaches Dragon Pulse to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-dragon-tail",
+    "name": "TM — Dragon Tail",
+    "category": "TMs",
+    "subtype": "Dragon Tail",
+    "mode": "",
+    "effect": "Teaches Dragon Tail to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-dream-eater",
+    "name": "TM — Dream Eater",
+    "category": "TMs",
+    "subtype": "Dream Eater",
+    "mode": "",
+    "effect": "Teaches Dream Eater to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-drill-run",
+    "name": "TM — Drill Run",
+    "category": "TMs",
+    "subtype": "Drill Run",
+    "mode": "",
+    "effect": "Teaches Drill Run to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-earthquake",
+    "name": "TM — Earthquake",
+    "category": "TMs",
+    "subtype": "Earthquake",
+    "mode": "",
+    "effect": "Teaches Earthquake to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-facade",
+    "name": "TM — Facade",
+    "category": "TMs",
+    "subtype": "Facade",
+    "mode": "",
+    "effect": "Teaches Facade to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-fire-blast",
+    "name": "TM — Fire Blast",
+    "category": "TMs",
+    "subtype": "Fire Blast",
+    "mode": "",
+    "effect": "Teaches Fire Blast to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-fire-punch",
+    "name": "TM — Fire Punch",
+    "category": "TMs",
+    "subtype": "Fire Punch",
+    "mode": "",
+    "effect": "Teaches Fire Punch to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-flamethrower",
+    "name": "TM — Flamethrower",
+    "category": "TMs",
+    "subtype": "Flamethrower",
+    "mode": "",
+    "effect": "Teaches Flamethrower to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-flash-cannon",
+    "name": "TM — Flash Cannon",
+    "category": "TMs",
+    "subtype": "Flash Cannon",
+    "mode": "",
+    "effect": "Teaches Flash Cannon to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-foul-play",
+    "name": "TM — Foul Play",
+    "category": "TMs",
+    "subtype": "Foul Play",
+    "mode": "",
+    "effect": "Teaches Foul Play to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-headbutt",
+    "name": "TM — Headbutt",
+    "category": "TMs",
+    "subtype": "Headbutt",
+    "mode": "",
+    "effect": "Teaches Headbutt to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-helping-hand",
+    "name": "TM — Helping Hand",
+    "category": "TMs",
+    "subtype": "Helping Hand",
+    "mode": "",
+    "effect": "Teaches Helping Hand to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-hyper-beam",
+    "name": "TM — Hyper Beam",
+    "category": "TMs",
+    "subtype": "Hyper Beam",
+    "mode": "",
+    "effect": "Teaches Hyper Beam to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-ice-beam",
+    "name": "TM — Ice Beam",
+    "category": "TMs",
+    "subtype": "Ice Beam",
+    "mode": "",
+    "effect": "Teaches Ice Beam to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-ice-punch",
+    "name": "TM — Ice Punch",
+    "category": "TMs",
+    "subtype": "Ice Punch",
+    "mode": "",
+    "effect": "Teaches Ice Punch to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-iron-tail",
+    "name": "TM — Iron Tail",
+    "category": "TMs",
+    "subtype": "Iron Tail",
+    "mode": "",
+    "effect": "Teaches Iron Tail to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-mega-drain",
+    "name": "TM — Mega Drain",
+    "category": "TMs",
+    "subtype": "Mega Drain",
+    "mode": "",
+    "effect": "Teaches Mega Drain to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-megahorn",
+    "name": "TM — Megahorn",
+    "category": "TMs",
+    "subtype": "Megahorn",
+    "mode": "",
+    "effect": "Teaches Megahorn to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-none",
+    "name": "TM — None",
+    "category": "TMs",
+    "subtype": "None",
+    "mode": "",
+    "effect": "Teaches None to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-outrage",
+    "name": "TM — Outrage",
+    "category": "TMs",
+    "subtype": "Outrage",
+    "mode": "",
+    "effect": "Teaches Outrage to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-pay-day",
+    "name": "TM — Pay Day",
+    "category": "TMs",
+    "subtype": "Pay Day",
+    "mode": "",
+    "effect": "Teaches Pay Day to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-play-rough",
+    "name": "TM — Play Rough",
+    "category": "TMs",
+    "subtype": "Play Rough",
+    "mode": "",
+    "effect": "Teaches Play Rough to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-poison-jab",
+    "name": "TM — Poison Jab",
+    "category": "TMs",
+    "subtype": "Poison Jab",
+    "mode": "",
+    "effect": "Teaches Poison Jab to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-protect",
+    "name": "TM — Protect",
+    "category": "TMs",
+    "subtype": "Protect",
+    "mode": "",
+    "effect": "Teaches Protect to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-psychic",
+    "name": "TM — Psychic",
+    "category": "TMs",
+    "subtype": "Psychic",
+    "mode": "",
+    "effect": "Teaches Psychic to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-razor-wind",
+    "name": "TM — Razor Wind",
+    "category": "TMs",
+    "subtype": "Razor Wind",
+    "mode": "",
+    "effect": "Teaches Razor Wind to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-rest",
+    "name": "TM — Rest",
+    "category": "TMs",
+    "subtype": "Rest",
+    "mode": "",
+    "effect": "Teaches Rest to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-rock-slide",
+    "name": "TM — Rock Slide",
+    "category": "TMs",
+    "subtype": "Rock Slide",
+    "mode": "",
+    "effect": "Teaches Rock Slide to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-roost",
+    "name": "TM — Roost",
+    "category": "TMs",
+    "subtype": "Roost",
+    "mode": "",
+    "effect": "Teaches Roost to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-scald",
+    "name": "TM — Scald",
+    "category": "TMs",
+    "subtype": "Scald",
+    "mode": "",
+    "effect": "Teaches Scald to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-seismic-toss",
+    "name": "TM — Seismic Toss",
+    "category": "TMs",
+    "subtype": "Seismic Toss",
+    "mode": "",
+    "effect": "Teaches Seismic Toss to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-self-destruct",
+    "name": "TM — Self-Destruct",
+    "category": "TMs",
+    "subtype": "Self-Destruct",
+    "mode": "",
+    "effect": "Teaches Self-Destruct to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-shadow-ball",
+    "name": "TM — Shadow Ball",
+    "category": "TMs",
+    "subtype": "Shadow Ball",
+    "mode": "",
+    "effect": "Teaches Shadow Ball to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-sky-attack",
+    "name": "TM — Sky Attack",
+    "category": "TMs",
+    "subtype": "Sky Attack",
+    "mode": "",
+    "effect": "Teaches Sky Attack to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-sludge-bomb",
+    "name": "TM — Sludge Bomb",
+    "category": "TMs",
+    "subtype": "Sludge Bomb",
+    "mode": "",
+    "effect": "Teaches Sludge Bomb to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-solar-beam",
+    "name": "TM — Solar Beam",
+    "category": "TMs",
+    "subtype": "Solar Beam",
+    "mode": "",
+    "effect": "Teaches Solar Beam to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-substitute",
+    "name": "TM — Substitute",
+    "category": "TMs",
+    "subtype": "Substitute",
+    "mode": "",
+    "effect": "Teaches Substitute to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-superpower",
+    "name": "TM — Superpower",
+    "category": "TMs",
+    "subtype": "Superpower",
+    "mode": "",
+    "effect": "Teaches Superpower to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-surf",
+    "name": "TM — Surf",
+    "category": "TMs",
+    "subtype": "Surf",
+    "mode": "",
+    "effect": "Teaches Surf to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-taunt",
+    "name": "TM — Taunt",
+    "category": "TMs",
+    "subtype": "Taunt",
+    "mode": "",
+    "effect": "Teaches Taunt to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-teleport",
+    "name": "TM — Teleport",
+    "category": "TMs",
+    "subtype": "Teleport",
+    "mode": "",
+    "effect": "Teaches Teleport to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-thunder",
+    "name": "TM — Thunder",
+    "category": "TMs",
+    "subtype": "Thunder",
+    "mode": "",
+    "effect": "Teaches Thunder to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-thunder-punch",
+    "name": "TM — Thunder Punch",
+    "category": "TMs",
+    "subtype": "Thunder Punch",
+    "mode": "",
+    "effect": "Teaches Thunder Punch to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-thunder-wave",
+    "name": "TM — Thunder Wave",
+    "category": "TMs",
+    "subtype": "Thunder Wave",
+    "mode": "",
+    "effect": "Teaches Thunder Wave to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-thunderbolt",
+    "name": "TM — Thunderbolt",
+    "category": "TMs",
+    "subtype": "Thunderbolt",
+    "mode": "",
+    "effect": "Teaches Thunderbolt to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-toxic",
+    "name": "TM — Toxic",
+    "category": "TMs",
+    "subtype": "Toxic",
+    "mode": "",
+    "effect": "Teaches Toxic to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-tri-attack",
+    "name": "TM — Tri Attack",
+    "category": "TMs",
+    "subtype": "Tri Attack",
+    "mode": "",
+    "effect": "Teaches Tri Attack to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-u-turn",
+    "name": "TM — U-turn",
+    "category": "TMs",
+    "subtype": "U-turn",
+    "mode": "",
+    "effect": "Teaches U-turn to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 5000
+  },
+  {
+    "id": "tm-waterfall",
+    "name": "TM — Waterfall",
+    "category": "TMs",
+    "subtype": "Waterfall",
+    "mode": "",
+    "effect": "Teaches Waterfall to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  },
+  {
+    "id": "tm-will-o-wisp",
+    "name": "TM — Will-O-Wisp",
+    "category": "TMs",
+    "subtype": "Will-O-Wisp",
+    "mode": "",
+    "effect": "Teaches Will-O-Wisp to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 1000
+  },
+  {
+    "id": "tm-x-scissor",
+    "name": "TM — X-Scissor",
+    "category": "TMs",
+    "subtype": "X-Scissor",
+    "mode": "",
+    "effect": "Teaches X-Scissor to a Pokémon that can legally learn it. Normally consumed when used.",
+    "price": 2500
+  }
+]

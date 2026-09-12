@@ -1,0 +1,30 @@
+{
+  "Strength": [
+    "Athletics"
+  ],
+  "Dexterity": [
+    "Acrobatics",
+    "Sleight of Hand",
+    "Stealth"
+  ],
+  "Intelligence": [
+    "Investigation",
+    "Nature",
+    "Pokémon",
+    "Technology"
+  ],
+  "Wisdom": [
+    "Insight",
+    "Medicine",
+    "Perception",
+    "Pokémon Handling",
+    "Survival"
+  ],
+  "Charisma": [
+    "Deception",
+    "Intimidation",
+    "Performance",
+    "Persuasion"
+  ],
+  "Constitution": []
+}
