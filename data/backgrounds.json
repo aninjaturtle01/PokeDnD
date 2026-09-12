@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Academy Student",
+    "skills": [
+      "Investigation",
+      "Pokémon"
+    ],
+    "gearText": "Notebook, reference cards",
+    "moneyBonus": 300,
+    "identity": "You have formal study habits and know how to locate reliable information."
+  },
+  {
+    "name": "Athlete",
+    "skills": [
+      "Athletics",
+      "Acrobatics"
+    ],
+    "gearText": "Sports gear, water bottle",
+    "moneyBonus": 250,
+    "identity": "You are comfortable with strenuous travel and physical competition."
+  },
+  {
+    "name": "Caregiver",
+    "skills": [
+      "Medicine",
+      "Insight"
+    ],
+    "gearText": "First-aid pouch, blanket",
+    "moneyBonus": 250,
+    "identity": "You have experience calming people and tending minor injuries."
+  },
+  {
+    "name": "Field Assistant",
+    "skills": [
+      "Nature",
+      "Pokémon Handling"
+    ],
+    "gearText": "Field notebook, specimen containers",
+    "moneyBonus": 250,
+    "identity": "You have worked around wild Pokémon and outdoor survey teams."
+  },
+  {
+    "name": "Performer",
+    "skills": [
+      "Performance",
+      "Persuasion"
+    ],
+    "gearText": "Performance kit, costume piece",
+    "moneyBonus": 300,
+    "identity": "You are used to crowds, presentation and reading an audience."
+  },
+  {
+    "name": "Tinkerer",
+    "skills": [
+      "Technology",
+      "Sleight of Hand"
+    ],
+    "gearText": "Small tool roll, spare parts",
+    "moneyBonus": 250,
+    "identity": "You are comfortable repairing devices and improvising mechanisms."
+  },
+  {
+    "name": "Traveller",
+    "skills": [
+      "Survival",
+      "Perception"
+    ],
+    "gearText": "Bedroll, map, rope",
+    "moneyBonus": 200,
+    "identity": "You know how to prepare for long routes and unfamiliar terrain."
+  },
+  {
+    "name": "Streetwise",
+    "skills": [
+      "Stealth",
+      "Deception"
+    ],
+    "gearText": "Flashlight, simple disguise kit",
+    "moneyBonus": 300,
+    "identity": "You know how to move unnoticed and talk your way through trouble."
+  }
+]
