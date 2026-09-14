@@ -1,4 +1,18 @@
-# Pokémon d20 Companion — V0.2.5 Premade Playtest Edition
+# Pokémon d20 Companion — V0.2.7 Premade Playtest Edition
+
+
+## V0.2.7 shiny creation rule
+- Shiny status can only be chosen when a Pokémon is first added to the character (including starter creation).
+- Existing Pokémon sheets display shiny status but no longer allow it to be toggled on or off afterward.
+- Evolution and Substitute continue to preserve/restore the Pokémon's original shiny status.
+
+## V0.2.6 shiny sprite support
+
+- All 151 supplied Kanto shiny sprites are bundled locally under `assets/pokemon/shiny/`.
+- A **Shiny Pokémon** checkbox appears when adding a Pokémon.
+- Existing Pokémon can be switched between normal and shiny from their Pokémon sheet.
+- Substitute still overrides the displayed sprite while active; when Substitute ends or breaks, the correct normal or shiny sprite returns automatically.
+- Starter creation also supports a shiny checkbox.
 
 This build is the premade-character edition of the V0.2.5 Player Companion. It keeps the four ready-to-use Level 4 Trainers from the earlier premade build and now includes the supplied Kanto Pokémon sprites and Substitute visual state.
 

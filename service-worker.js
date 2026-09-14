@@ -1,5 +1,7 @@
-const CACHE = 'pokemon-d20-v025-premade-1';
-const SPRITES = Array.from({length:151},(_,i)=>`./assets/pokemon/${String(i+1).padStart(4,'0')}.png`).concat('./assets/pokemon/substitute.png');
+const CACHE = 'pokemon-d20-v027-premade-1';
+const NORMAL_SPRITES = Array.from({length:151},(_,i)=>`./assets/pokemon/${String(i+1).padStart(4,'0')}.png`);
+const SHINY_SPRITES = Array.from({length:151},(_,i)=>`./assets/pokemon/shiny/${String(i+1).padStart(4,'0')}.png`);
+const SPRITES = [...NORMAL_SPRITES, ...SHINY_SPRITES, './assets/pokemon/substitute.png'];
 const CORE = [
   './','./index.html','./styles.css','./app.js','./data-bundle.js','./manifest.webmanifest','./assets/icon.svg',
   './data/pokemon.json','./data/moves.json','./data/items.json','./data/classes.json',

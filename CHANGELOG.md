@@ -1,5 +1,20 @@
 # Pokémon d20 Companion — Premade Changelog
 
+## V0.2.7 Premade
+- Shiny status is now locked after a Pokémon is added.
+- The Shiny Pokémon checkbox was removed from existing Pokémon sheets.
+- Shiny can still be selected when adding/capturing a Pokémon and during starter creation.
+- Existing shiny Pokémon remain shiny, including through evolution and after Substitute ends.
+
+## V0.2.6 Premade
+
+- Added all 151 supplied Kanto shiny sprites.
+- Added a Shiny Pokémon checkbox when adding Pokémon.
+- Added a shiny toggle to existing Pokémon sheets.
+- Added shiny starter selection and preview.
+- Substitute overrides both normal and shiny sprites while active and restores the correct sprite when it ends.
+- Updated offline cache to include shiny sprites.
+
 ## V0.2.5 Premade
 - Added supplied Kanto sprites throughout the Player Companion.
 - Added manual Substitute sprite switching when the Substitute move is used.
